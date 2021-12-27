@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "LoginWithTokenInDiscord",
+  "description": "LoginWithTokenInDiscord",
+  "version": "0.1",
+  "icons": {
+    "16": "imgs/discord-2-16.png",
+    "48": "imgs/discord-2-48.png",
+    "128": "imgs/discord-2-128.png"
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "imgs/discord-2-16.png",
+      "48": "imgs/discord-2-48.png",
+      "128": "imgs/discord-2-128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/*"],
+      "js": ["js/content.js"]
+    }
+  ]
+}
