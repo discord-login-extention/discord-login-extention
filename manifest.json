@@ -17,7 +17,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://discord.com/*"],
+      "matches": ["https://discord.com/login"],
       "js": ["js/content.js"]
     }
   ]
