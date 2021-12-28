@@ -1,5 +1,5 @@
 
-# Login to discord with token extention
+# Login to discord with token extension
 
 
 
